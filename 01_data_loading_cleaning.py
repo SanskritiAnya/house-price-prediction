@@ -13,4 +13,4 @@ df_cleaned = df.dropna()
 
 # Save cleaned dataset
 df_cleaned.to_csv("cleaned_data.csv", index=False)
-print("\n✅ Cleaned data saved to cleaned_data.csv")
+print("\n Cleaned data saved to cleaned_data.csv")
